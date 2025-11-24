@@ -1,0 +1,13 @@
+# environment.yml
+name: my-env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+    - pandas=2.2.2
+    - pandera=0.20.4
+    - python=3.11
+    - conda-lock=3.0.4
+    - pip
+    - pip:
+      - deepchecks==0.18.1
